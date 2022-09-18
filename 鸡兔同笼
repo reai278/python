@@ -1,0 +1,10 @@
+#假设鸡兔头共36只，鸡兔脚共96只
+
+def num():
+    for x in range(1,37):
+        y=36-x
+        if 4*x+2*y==96:
+            num1=x
+            num2=y
+    return num1,num2
+print(f"雉兔同笼，兔有{num()[0]}只，鸡有{num()[1]}只")
