@@ -1,0 +1,5 @@
+def miss(day):
+    for i in range(1,day+1):
+        print(f"今天是学代码的第{i}天，加油！")
+miss(2)
+miss(5)
