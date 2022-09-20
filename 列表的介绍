@@ -1,0 +1,19 @@
+#列表
+animal=["pig","dog","cat"]
+print(animal)
+#结果为['pig','dog','cat']
+
+#切片
+name=["lihua","wanggang","xiaojun","jimi"]
+print(name[:2])
+#结果为['lihua', 'wanggang']
+
+#列表的修改
+color=["red","blue","black"]
+print(color)
+print(color[0])
+color[0]="yellow"
+print(color)
+#['red', 'blue', 'black']
+#red
+#['yellow', 'blue', 'black']
